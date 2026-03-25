@@ -1,0 +1,13 @@
+services:
+  isao-script-generator:
+    build: .
+    container_name: isao-script-generator
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
