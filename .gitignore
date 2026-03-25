@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+.env.production
+*.log
+.vscode/
+.idea/
+.session-data/
+.claude/
